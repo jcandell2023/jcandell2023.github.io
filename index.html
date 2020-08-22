@@ -20,7 +20,7 @@
     <div class="navbar-fixed">
       <nav class="light-blue">
         <div class="nav-wrapper container">
-          <a href="#!" id="logo-container" class="brand-logo">Jeff Candell</a>
+          <a href="#" id="logo-container" class="brand-logo">Jeff Candell</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
             ><i class="material-icons">menu</i></a
           >
@@ -39,19 +39,47 @@
     </ul>
     <div class="container">
       <section id="about" class="section">
-        <h1>About</h1>
+        <h1 class="center">About</h1>
         <p class="flow-text">
           My name is Jeff Candell. I am a sophmore at Washington University in St. Louis
         </p>
       </section>
       <div class="divider"></div>
       <section id="projects" class="section">
-        <h1>Projects</h1>
-        <a href="/corona-model">Corona virus model</a>
+        <h1 class="center">Projects</h1>
+        <div class="row">
+          <div class="card col s12 m6">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="https://www.counterpointresearch.com/wp-content/uploads/2020/02/Coronavirus.jpg"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Coronavirus Interactive Model<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+              <p><a href="/corona-model">See the page</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Coronavirus Interactive Model<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>
+                I created this web application using Svelte and Chartjs. It predicts how
+                close states are to hurd immunity and visualize it cleanly.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <div class="divider"></div>
       <section id="contact" class="section">
-        <h1>Contact</h1>
+        <h1 class="center">Contact Me</h1>
       </section>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
