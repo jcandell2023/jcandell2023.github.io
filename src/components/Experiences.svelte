@@ -8,7 +8,3 @@
 		<Experience {experience} />
 	{/each}
 </div>
-
-<style lang="css">
-
-</style>
