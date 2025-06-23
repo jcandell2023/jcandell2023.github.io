@@ -3,7 +3,7 @@
 	import { siteData } from "../data";
 </script>
 
-<div class="grid">
+<div class="grid" id="experiences">
 	{#each siteData.experiences as experience }
 		<Experience {experience} />
 	{/each}

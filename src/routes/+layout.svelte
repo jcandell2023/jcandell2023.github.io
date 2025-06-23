@@ -1,8 +1,6 @@
 <script lang="ts">
-	// importing like this breaks vite reloading
-	import 'beercss'
-	// import 'beercss/dist/cdn/beer.min.css'
-	// import 'beercss/dist/cdn/beer.min.js'
+	import 'beercss/dist/cdn/beer.min.css'
+	import 'beercss/dist/cdn/beer.min.js'
 	import '../app.css'
 	import { onMount } from 'svelte';
 
