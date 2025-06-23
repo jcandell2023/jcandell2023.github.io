@@ -11,14 +11,14 @@ declare global {
 
 	namespace Data {
 		type SiteData = {
-			experiences: array<Experience>
-		}
+			experiences: array<Experience>;
+		};
 
 		type Experience = {
-			name: string,
-			imgUrl: string,
-			description: string
-		}
+			name: string;
+			imgUrl: string;
+			description: string;
+		};
 	}
 }
 
