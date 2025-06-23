@@ -3,6 +3,3 @@
 </script>
 
 <Experiences />
-
-<style lang="css">
-</style>
