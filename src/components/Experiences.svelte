@@ -4,7 +4,7 @@
 </script>
 
 <div class="grid" id="experiences">
-	{#each siteData.experiences as experience}
+	{#each siteData.experiences as experience (experience.name)}
 		<Experience {experience} />
 	{/each}
 </div>
