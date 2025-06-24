@@ -4,7 +4,7 @@
 </script>
 
 <article class="s6 m4 no-padding border fill">
-	<img src={experience.imgUrl} alt="Logo" class="" />
+	<img src={experience.imgUrl} alt="Logo" />
 	<div class="padding">
 		<h5>{experience.name}</h5>
 		<p>{experience.description}</p>
@@ -14,11 +14,7 @@
 <style lang="css">
 	img {
 		width: 100%;
-		height: 10rem;
-		object-fit: cover;
-	}
-
-	img:hover {
-		height: auto;
+		object-fit: contain;
+		padding: 1rem;
 	}
 </style>
