@@ -2,22 +2,22 @@ export const siteData: Data.SiteData = {
 	experiences: [
 		{
 			name: 'Draftkings',
-			imgUrl: './draftkings.avif',
+			imgUrl: './images/draftkings.avif',
 			description: 'Senior Software Engineer'
 		},
 		{
 			name: 'WashU',
-			imgUrl: './washu.avif',
+			imgUrl: './images/washu.avif',
 			description: 'Computer Science Major and Student-Athlete'
 		},
 		{
 			name: 'Garmin',
-			imgUrl: './garmin.avif',
+			imgUrl: './images/garmin.avif',
 			description: 'Software Engineer Intern'
 		},
 		{
 			name: 'Pega',
-			imgUrl: './pega.avif',
+			imgUrl: './images/pega.avif',
 			description: 'Software Engineer Intern'
 		}
 	]
