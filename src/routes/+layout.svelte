@@ -1,6 +1,6 @@
 <script lang="ts">
 	import 'beercss/dist/cdn/beer.min.css';
-	import 'beercss/dist/cdn/beer.min.js';
+	// import 'beercss/dist/cdn/beer.min.js';
 	import '../app.css';
 	import { onMount } from 'svelte';
 
@@ -16,7 +16,9 @@
 <main class="responsive">
 	<nav class="center-align">
 		{#key name}
-			<h4 in:typewriter={{}}>{name}</h4>
+			<a href="/">
+				<h4 in:typewriter={{}}>{name}</h4>
+			</a>
 		{/key}
 		<div class="max"></div>
 		<a href="#experiences">
