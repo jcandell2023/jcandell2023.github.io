@@ -1,4 +1,5 @@
 export const siteData: Data.SiteData = {
+	aboutMe: "I'm a ",
 	experiences: [
 		{
 			name: 'Draftkings',
@@ -8,7 +9,7 @@ export const siteData: Data.SiteData = {
 		{
 			name: 'WashU',
 			imgUrl: './images/washu.avif',
-			description: 'Computer Science Major and Student-Athlete'
+			description: 'Computer Science Major'
 		},
 		{
 			name: 'Garmin',
