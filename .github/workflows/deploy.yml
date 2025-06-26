@@ -3,7 +3,7 @@ name: Deploy SvelteKit Static to Github Pages
 on:
   # Runs on pushes targeting the pages branch
   push:
-    branches: ['gh-pages']
+    branches: ['main']
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

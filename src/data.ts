@@ -1,23 +1,24 @@
 export const siteData: Data.SiteData = {
+	aboutMe: "I'm a ",
 	experiences: [
 		{
 			name: 'Draftkings',
-			imgUrl: './draftkings.avif',
+			imgUrl: './images/draftkings.avif',
 			description: 'Senior Software Engineer'
 		},
 		{
 			name: 'WashU',
-			imgUrl: './washu.avif',
-			description: 'Computer Science Major and Student-Athlete'
+			imgUrl: './images/washu.avif',
+			description: 'Computer Science Major'
 		},
 		{
 			name: 'Garmin',
-			imgUrl: './garmin.avif',
+			imgUrl: './images/garmin.avif',
 			description: 'Software Engineer Intern'
 		},
 		{
 			name: 'Pega',
-			imgUrl: './pega.avif',
+			imgUrl: './images/pega.avif',
 			description: 'Software Engineer Intern'
 		}
 	]

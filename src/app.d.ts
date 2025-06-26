@@ -11,6 +11,7 @@ declare global {
 
 	namespace Data {
 		type SiteData = {
+			aboutMe: string;
 			experiences: array<Experience>;
 		};
 

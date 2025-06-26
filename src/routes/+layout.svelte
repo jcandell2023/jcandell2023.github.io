@@ -1,29 +1,29 @@
 <script lang="ts">
 	import 'beercss/dist/cdn/beer.min.css';
-	// import 'beercss/dist/cdn/beer.min.js';
+	import 'beercss/dist/cdn/beer.min.js';
 	import '../app.css';
-	import { onMount } from 'svelte';
 
-	import { typewriter } from '../transitions/typewriter';
-
-	let name = $state('');
-	onMount(() => {
-		name = 'Jeff Candell';
-	});
 	let { children } = $props();
+
+	function scrollToId(id: string) {
+		const element = document.getElementById(id);
+		element?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+	}
 </script>
 
+<nav class="top center-align secondary-container small-elevate large-space">
+	<button
+		onclick={() => {
+			scrollToId('about-me');
+		}}>About Me</button
+	>
+	<button
+		onclick={() => {
+			scrollToId('experiences');
+		}}>Experiences</button
+	>
+</nav>
+
 <main class="responsive">
-	<nav class="center-align">
-		{#key name}
-			<a href="/">
-				<h4 in:typewriter={{}}>{name}</h4>
-			</a>
-		{/key}
-		<div class="max"></div>
-		<a href="#experiences">
-			<button class="border small-elevate">Experiences</button>
-		</a>
-	</nav>
 	{@render children()}
 </main>
