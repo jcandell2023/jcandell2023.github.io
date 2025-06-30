@@ -1,5 +1,5 @@
 export const siteData: Data.SiteData = {
-	aboutMe: "I'm a ",
+	aboutMe: "I'm a senior software engineer at Draftkings building iOS apps.",
 	experiences: [
 		{
 			name: 'Draftkings',
