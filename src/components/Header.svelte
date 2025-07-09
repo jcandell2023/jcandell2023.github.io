@@ -36,21 +36,29 @@
 	a:hover {
 		text-decoration: underline;
 	}
+
 	picture {
 		width: 1.5rem;
 	}
+
 	span {
 		font-size: 1.5rem;
 	}
+
 	.header-container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		text-align: center;
 	}
+
 	@media (max-width: 650px) {
 		.header-container {
 			flex-direction: column;
 		}
+	}
+
+	h1 {
+		min-height: 3.5rem;
 	}
 </style>
