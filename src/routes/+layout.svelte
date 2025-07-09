@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import 'beercss/dist/cdn/beer.min.css';
+	import 'beercss/dist/cdn/beer.min.css';
 	import '../app.css';
 
 	let { children } = $props();

@@ -13,7 +13,7 @@
 		<h1 class="" in:typewriter={{}}>{name}</h1>
 	{/key}
 	<div class="">
-		<a href="https://github.com/jcandell2023">
+		<a href="https://github.com/jcandell2023" target="_blank">
 			<picture>
 				<source media="(prefers-color-scheme: dark)" srcset="./images/github-mark-white.svg" />
 				<source media="(prefers-color-scheme: light)" srcset="./images/github-mark.svg" />
@@ -21,7 +21,7 @@
 			</picture>
 			<span>Github</span>
 		</a>
-		<a href="https://www.linkedin.com/in/jeffcandell/">
+		<a href="https://www.linkedin.com/in/jeffcandell/" target="_blank">
 			<picture>
 				<source media="(prefers-color-scheme: dark)" srcset="./images/InBug-White.png" />
 				<source media="(prefers-color-scheme: light)" srcset="./images/InBug-Black.png" />

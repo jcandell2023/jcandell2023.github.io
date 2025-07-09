@@ -11,7 +11,7 @@ declare global {
 
 	namespace Data {
 		type SiteData = {
-			aboutMe: string;
+			aboutMe: AboutMe;
 			experiences: array<Experience>;
 		};
 
@@ -19,6 +19,11 @@ declare global {
 			name: string;
 			imgUrl: string;
 			description: string;
+		};
+
+		type AboutMe = {
+			summary: string;
+			skills: array<string>;
 		};
 	}
 }
