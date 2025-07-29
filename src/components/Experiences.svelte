@@ -5,8 +5,13 @@
 
 <h2 id="experiences">Technical Experience</h2>
 <div class="grid">
-	{#each siteData.experiences as experience (experience.name)}
+	{#each siteData.experiences.technical as experience (experience.name)}
 		<Experience {experience} />
 	{/each}
 </div>
 <h2>Personal Experience</h2>
+<div class="grid">
+	{#each siteData.experiences.personal as experience (experience.name)}
+		<Experience {experience} />
+	{/each}
+</div>
